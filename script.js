@@ -18,7 +18,6 @@ function compileData() {
     "specialty": specialty,
     "interest": interest,
     "opt-in": document.getElementById('checkbox1').checked,
-    "hcp-confirmation": document.getElementById('hcp-checkbox').checked,
     "Product": "auvelity"
   }
 
