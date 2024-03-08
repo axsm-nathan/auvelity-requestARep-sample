@@ -38,7 +38,7 @@ async function callRequestARep() {
   const repsonse = await fetch(AUVELITY_ENDPOINT, {
     method: 'POST',
     headers: {
-      // "Access-Control-Allow-Origin": "https://sunosi-requestarep-sample.netlify.app/#", // Required for CORS support to work
+      "Origin": "https://deluxe-travesseiro-63e525.netlify.app", // Required for CORS support to work
       "Content-Type": "application/json" // Required for POST requests to succeed
     },
     body: JSON.stringify(compileData())
